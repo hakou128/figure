@@ -1,11 +1,11 @@
-#include" rectangle.h"
+#include "rectangle.h"
 #include "point.h"
 using namespace std;
-rectangle::rectangle(point a, point b, point c)
+rectangle::rectangle(point a1, point b1, point c1)
 {
-	this->a = a;
-	this->b = b;
-	this->c = c;
+	this->a = a1;
+	this->b = b1;
+	this->c = c1;
 }
 void rectangle::draw()
 {

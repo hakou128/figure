@@ -12,16 +12,16 @@ using namespace std;
 	 void main() {
 
 		 const int numObjects = 3;
-		 Figure **objects = new Figure*[newObjects];
+		 figure **objects = new figure*[numObjects];
 
-		 objects[0] = new point(2.5,-2,5);
-		 objects[1] = new Rectangle(3, 2, 5);
+		 objects[0] = new point(2.5,-2.5);
+		 objects[1] = new rectangle(1,2,3);
 		 point(1.0,0.0);
 		 point(0.0,0.0);
 		 point(2.5,0.0);
 		 delete[]objects;
 
-		 objects[2] = new Point(34,5,6);
+		 objects[2] = new point(34,5,6);
 
 		 for (int i = 0; i < numObjects;i++) {
 		 

@@ -1,16 +1,18 @@
 #pragma once
 
 
-#ifndef POINT_H
-#define POINT_H
+//#ifndef POINT_H
+//#define POINT_H
 #include <iostream>
 #include "figure.h"
 class point : public figure
 {
-private:
+//private:
+//	double x;
+//	double y;
+public:
 	double x;
 	double y;
-public:
 	friend rectangle;
 	point() {};
 	point(double x , double y);
@@ -22,4 +24,4 @@ public:
 
 };
 
-#endif
+//#endif
